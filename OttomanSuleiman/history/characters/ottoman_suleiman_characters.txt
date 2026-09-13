@@ -1,0 +1,17 @@
+# Suleiman I (1494–1566), sovereign during the 1546 bookmark.
+suleiman_i_osmanli = {
+	name = "Suleiman"
+	dynasty = dynasty_osmanli
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1494.11.06
+	skill = { diplomacy = 16 martial = 15 stewardship = 13 intrigue = 11 learning = 12 prowess = 8 }
+	trait = just
+	trait = ambitious
+	trait = scholar
+	trait = strategist
+	trait = august
+	trait = lifestyle_martial_strategy_focus
+	dead = 1566.09.06
+}

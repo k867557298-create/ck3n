@@ -1,0 +1,22 @@
+namespace = ottoman_suleiman
+
+character_event = {
+	id = ottoman_suleiman.0001
+	title = ottoman_suleiman.0001.t
+	desc = ottoman_suleiman.0001.desc
+	picture = GFX_evt_hagia_sophia
+
+	is_triggered_only = yes
+
+	option = {
+		name = ottoman_suleiman.0001.a
+		if = {
+			limit = { has_character_flag = ottoman_suleiman_briefing_seen }
+			add_prestige = 100
+		}
+		else = {
+			set_character_flag = ottoman_suleiman_briefing_seen
+			add_prestige = 250
+		}
+	}
+}

@@ -1,0 +1,25 @@
+# A compact, playable 1546 setup.  The empire's constituent kingdoms remain vassal titles.
+e_ottoman_empire = {
+	1546.1.1 = { holder = suleiman_i_osmanli }
+}
+k_anatolia = {
+	1546.1.1 = { holder = suleiman_i_osmanli }
+}
+k_thrace = {
+	1546.1.1 = { holder = suleiman_i_osmanli }
+}
+k_armenia = {
+	1546.1.1 = { holder = suleiman_i_osmanli }
+}
+k_mesopotamia = {
+	1546.1.1 = { holder = suleiman_i_osmanli }
+}
+k_jerusalem = {
+	1546.1.1 = { holder = suleiman_i_osmanli }
+}
+k_egypt = {
+	1546.1.1 = { holder = suleiman_i_osmanli }
+}
+c_byzantion = {
+	1546.1.1 = { holder = suleiman_i_osmanli }
+}

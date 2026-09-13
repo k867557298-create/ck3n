@@ -1,0 +1,5 @@
+dynasty_osmanli = {
+	name = "dynn_osmanli"
+	culture = turkish
+	prestige = 2500
+}

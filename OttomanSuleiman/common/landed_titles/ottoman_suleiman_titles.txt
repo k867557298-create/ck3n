@@ -1,0 +1,20 @@
+e_ottoman_empire = {
+	color = { 34 112 77 }
+	color2 = { 230 205 120 }
+	capital = c_byzantion
+	culture = turkish
+	ruler_title = "SULTAN"
+	ruler_title_female = "SULTANA"
+	foa = "SULTAN_FOA"
+	require_landless = no
+	landless = no
+	definite_form = yes
+	short_name = yes
+
+	k_anatolia = { }
+	k_thrace = { }
+	k_armenia = { }
+	k_mesopotamia = { }
+	k_jerusalem = { }
+	k_egypt = { }
+}

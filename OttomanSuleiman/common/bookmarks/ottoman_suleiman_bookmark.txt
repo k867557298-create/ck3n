@@ -1,0 +1,14 @@
+bookmarks = {
+	bookmark_suleiman_1546 = {
+		type = playable
+		start_date = 1546.01.01
+		is_shown = { always = yes }
+		characters = {
+			suleiman_i_osmanli = { title = e_ottoman_empire }
+			charles_v_habsburg_1546 = { title = e_hre }
+			francis_i_valois_1546 = { title = k_france }
+			henry_viii_tudor_1546 = { title = k_england }
+			ivan_iv_rurik_1546 = { title = k_rus }
+		}
+	}
+}

@@ -8,8 +8,8 @@ character_event = {
 	picture = GFX_evt_court
 	trigger = {
 		has_title = e_ottoman_empire
-		date >= 1546.01.01
-		date < 1546.01.02
+		current_date >= 1546.01.01
+		current_date < 1546.01.02
 	}
 	is_triggered_only = yes
 	option = {
@@ -26,8 +26,8 @@ character_event = {
 	picture = GFX_evt_council
 	trigger = {
 		has_title = e_ottoman_empire
-		date >= 1546.07.04
-		date < 1547.01.01
+		current_date >= 1546.07.04
+		current_date < 1547.01.01
 		NOT = { has_character_flag = ottoman_barbarossa_legacy_resolved }
 	}
 	is_triggered_only = yes
@@ -52,8 +52,8 @@ character_event = {
 	picture = GFX_evt_court
 	trigger = {
 		has_title = e_ottoman_empire
-		date >= 1553.01.01
-		date < 1554.01.01
+		current_date >= 1553.01.01
+		current_date < 1554.01.01
 		NOT = { has_character_flag = ottoman_mustafa_crisis_resolved }
 	}
 	is_triggered_only = yes
@@ -79,8 +79,8 @@ character_event = {
 	picture = GFX_evt_court
 	trigger = {
 		has_title = e_ottoman_empire
-		date >= 1547.03.31
-		date < 1548.01.01
+		current_date >= 1547.03.31
+		current_date < 1548.01.01
 		NOT = { has_character_flag = ottoman_franco_alliance_resolved }
 	}
 	is_triggered_only = yes
@@ -105,8 +105,8 @@ character_event = {
 	picture = GFX_evt_council
 	trigger = {
 		has_title = e_ottoman_empire
-		date >= 1548.01.01
-		date < 1549.01.01
+		current_date >= 1548.01.01
+		current_date < 1549.01.01
 		NOT = { has_character_flag = ottoman_persian_campaign_resolved }
 	}
 	is_triggered_only = yes
@@ -131,8 +131,8 @@ character_event = {
 	picture = GFX_evt_court
 	trigger = {
 		has_title = e_ottoman_empire
-		date >= 1555.05.29
-		date < 1556.01.01
+		current_date >= 1555.05.29
+		current_date < 1556.01.01
 		NOT = { has_character_flag = ottoman_amasya_peace_resolved }
 	}
 	is_triggered_only = yes
@@ -157,8 +157,8 @@ character_event = {
 	picture = GFX_evt_court
 	trigger = {
 		has_title = e_ottoman_empire
-		date >= 1558.04.15
-		date < 1559.01.01
+		current_date >= 1558.04.15
+		current_date < 1559.01.01
 		NOT = { has_character_flag = ottoman_hurrem_memory_resolved }
 	}
 	is_triggered_only = yes

@@ -13,7 +13,7 @@ suleiman_i_osmanli = {
 	trait = scholar
 	trait = strategist
 	trait = august
-	trait = lifestyle_martial_strategy_focus
+	focus = martial_strategy_focus
 	spouse = hurrem_sultan_osmanli
 	dead = 1566.09.06
 }

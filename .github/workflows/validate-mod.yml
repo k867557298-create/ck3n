@@ -1,0 +1,17 @@
+name: Validate CK3 mod data
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Validate descriptors, scripts, localisation, events, and Sanjaks
+        run: python3 scripts/validate_mod.py
+      - name: Check patch whitespace
+        run: git diff --check HEAD^ HEAD

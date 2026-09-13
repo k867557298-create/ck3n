@@ -3,7 +3,7 @@ e_ottoman_empire = {
 	1546.1.1 = {
 		holder = suleiman_i_osmanli
 		government = feudal_government
-		succession_laws = { male_preference_primogeniture_succession_law }
+		succession_laws = { male_preference_law primogeniture_succession_law }
 	}
 }
 c_byzantion = { 1546.1.1 = { holder = suleiman_i_osmanli } }

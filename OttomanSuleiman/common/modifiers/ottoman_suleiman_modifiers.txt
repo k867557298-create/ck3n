@@ -1,0 +1,12 @@
+ottoman_suleiman_legacy_modifier = {
+	monthly_prestige = 0.25
+	general_opinion = 10
+}
+ottoman_divan_reform_modifier = {
+	monthly_prestige = 0.15
+	monthly_income_mult = 0.05
+}
+ottoman_mustafa_crisis_modifier = {
+	general_opinion = -10
+	monthly_prestige = -0.10
+}

@@ -1,9 +1,7 @@
-# Welcomes the player only when starting the dedicated Suleiman bookmark.
+# These events only pass their triggers for Suleiman and never affect unrelated rulers.
 on_game_start = {
-	effect = {
-		if = {
-			limit = { date >= 1546.01.01 date < 1546.01.02 }
-			random_player = { trigger_event = ottoman_suleiman.0001 }
-		}
-	}
+	events = { ottoman_suleiman.0001 }
+}
+on_monthly_pulse = {
+	events = { ottoman_suleiman.0100 ottoman_suleiman.0200 }
 }

@@ -1,25 +1,7 @@
-# A compact, playable 1546 setup.  The empire's constituent kingdoms remain vassal titles.
-e_ottoman_empire = {
-	1546.1.1 = { holder = suleiman_i_osmanli }
-}
-k_anatolia = {
-	1546.1.1 = { holder = suleiman_i_osmanli }
-}
-k_thrace = {
-	1546.1.1 = { holder = suleiman_i_osmanli }
-}
-k_armenia = {
-	1546.1.1 = { holder = suleiman_i_osmanli }
-}
-k_mesopotamia = {
-	1546.1.1 = { holder = suleiman_i_osmanli }
-}
-k_jerusalem = {
-	1546.1.1 = { holder = suleiman_i_osmanli }
-}
-k_egypt = {
-	1546.1.1 = { holder = suleiman_i_osmanli }
-}
-c_byzantion = {
-	1546.1.1 = { holder = suleiman_i_osmanli }
-}
+# Political map at the dedicated 1546 bookmark.
+e_ottoman_empire = { 1546.1.1 = { holder = suleiman_i_osmanli } }
+c_byzantion = { 1546.1.1 = { holder = suleiman_i_osmanli } }
+e_hre = { 1546.1.1 = { holder = charles_v_habsburg_1546 } }
+k_france = { 1546.1.1 = { holder = francis_i_valois_1546 } }
+k_england = { 1546.1.1 = { holder = henry_viii_tudor_1546 } }
+k_rus = { 1546.1.1 = { holder = ivan_iv_rurik_1546 } }

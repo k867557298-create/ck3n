@@ -1,5 +1,11 @@
+# Dynasties are intentionally namespaced so this bookmark can coexist with vanilla history.
 dynasty_osmanli = {
 	name = "dynn_osmanli"
 	culture = turkish
 	prestige = 2500
 }
+dynasty_habsburg_1546 = { name = "dynn_habsburg_1546" culture = german prestige = 2200 }
+dynasty_valois_1546 = { name = "dynn_valois_1546" culture = french prestige = 1800 }
+dynasty_tudor_1546 = { name = "dynn_tudor_1546" culture = english prestige = 1600 }
+dynasty_rurik_1546 = { name = "dynn_rurik_1546" culture = russian prestige = 1400 }
+dynasty_rustem_pasha_1546 = { name = "dynn_rustem_pasha_1546" culture = turkish prestige = 900 }

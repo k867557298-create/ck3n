@@ -1,0 +1,36 @@
+# Named central offices of the Imperial Council (Divan-ı Hümayun), 1546.
+celalzade_mustafa_celebi = {
+	name = "Celalzade Mustafa Çelebi, Nişancı"
+	dynasty = dynasty_rustem_pasha_1546
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1490.01.01
+	skill = { diplomacy = 11 martial = 3 stewardship = 14 intrigue = 10 learning = 16 prowess = 1 }
+	trait = scholar
+	trait = administrator
+	dead = 1567.01.01
+}
+ebussuud_efendi = {
+	name = "Ebussuud Efendi, Şeyhülislam"
+	dynasty = dynasty_rustem_pasha_1546
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1490.01.01
+	skill = { diplomacy = 9 martial = 1 stewardship = 9 intrigue = 8 learning = 20 prowess = 1 }
+	trait = scholar
+	trait = zealous
+	dead = 1574.08.23
+}
+feridun_ahmed_bey = {
+	name = "Feridun Ahmed Bey, Reisülküttab"
+	dynasty = dynasty_rustem_pasha_1546
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1525.01.01
+	skill = { diplomacy = 12 martial = 2 stewardship = 13 intrigue = 12 learning = 14 prowess = 1 }
+	trait = administrator
+	dead = 1583.03.16
+}

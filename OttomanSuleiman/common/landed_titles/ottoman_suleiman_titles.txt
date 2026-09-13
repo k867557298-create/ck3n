@@ -1,0 +1,54 @@
+e_ottoman_empire = {
+	color = { 34 112 77 }
+	color2 = { 230 205 120 }
+	capital = c_byzantion
+	culture = turkish
+	government = feudal_government
+	ruler_title = "SULTAN"
+	ruler_title_female = "SULTANA"
+	foa = "SULTAN_FOA"
+	require_landless = no
+	landless = no
+	definite_form = yes
+	short_name = yes
+
+	# Eyalets are delegated provincial offices, not independent dynastic kingdoms.
+	d_rumelia_eyalet = {
+		color = { 50 126 92 }
+		capital = c_adrianopolis
+		ruler_title = "BEYLERBEY"
+		ruler_title_female = "BEYLERBEY_FEMALE"
+	}
+	d_anatolia_eyalet = {
+		color = { 58 134 98 }
+		capital = c_ankara
+		ruler_title = "BEYLERBEY"
+		ruler_title_female = "BEYLERBEY_FEMALE"
+	}
+	d_egypt_eyalet = {
+		color = { 72 145 105 }
+		capital = c_alexandria
+		ruler_title = "BEYLERBEY"
+		ruler_title_female = "BEYLERBEY_FEMALE"
+	}
+	d_syria_eyalet = {
+		color = { 64 138 101 }
+		capital = c_aleppo
+		ruler_title = "BEYLERBEY"
+		ruler_title_female = "BEYLERBEY_FEMALE"
+	}
+	d_gallipoli_sanjak = {
+		color = { 44 118 84 }
+		capital = c_gallipoli
+		ruler_title = "SANCAKBEY"
+		ruler_title_female = "SANCAKBEY_FEMALE"
+	}
+	d_karaman_eyalet = { color = { 68 140 102 } ruler_title = "BEYLERBEY" ruler_title_female = "BEYLERBEY_FEMALE" }
+	d_rum_eyalet = { color = { 76 148 108 } ruler_title = "BEYLERBEY" ruler_title_female = "BEYLERBEY_FEMALE" }
+	d_dulkadir_eyalet = { color = { 82 154 112 } ruler_title = "BEYLERBEY" ruler_title_female = "BEYLERBEY_FEMALE" }
+	d_diyarbakir_eyalet = { color = { 88 158 116 } ruler_title = "BEYLERBEY" ruler_title_female = "BEYLERBEY_FEMALE" }
+	d_damascus_eyalet = { color = { 94 162 120 } ruler_title = "BEYLERBEY" ruler_title_female = "BEYLERBEY_FEMALE" }
+	d_baghdad_eyalet = { color = { 100 166 124 } ruler_title = "BEYLERBEY" ruler_title_female = "BEYLERBEY_FEMALE" }
+	d_budin_eyalet = { color = { 106 170 128 } ruler_title = "BEYLERBEY" ruler_title_female = "BEYLERBEY_FEMALE" }
+	d_archipelago_eyalet = { color = { 112 174 132 } ruler_title = "BEYLERBEY" ruler_title_female = "BEYLERBEY_FEMALE" }
+}

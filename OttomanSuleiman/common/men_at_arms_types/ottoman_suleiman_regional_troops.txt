@@ -1,0 +1,141 @@
+# Regional 16th-century regiments. Recruitment is culture-gated so they remain distinctive.
+maa_ottoman_janissaries = {
+	type = heavy_infantry
+	can_recruit = { culture = turkish }
+	ai_quality = 4
+	stack = 100
+	buy_cost = { gold = 100 }
+	low_maintenance_cost = { gold = 0.15 }
+	high_maintenance_cost = { gold = 0.30 }
+	damage = 42
+	toughness = 32
+	pursuit = 8
+	screen = 12
+	terrain_bonus = { plains = { damage = 4 } hills = { toughness = 4 } }
+}
+maa_ottoman_sipahis = {
+	type = heavy_cavalry
+	can_recruit = { culture = turkish }
+	ai_quality = 4
+	stack = 100
+	buy_cost = { gold = 110 }
+	low_maintenance_cost = { gold = 0.18 }
+	high_maintenance_cost = { gold = 0.36 }
+	damage = 38
+	toughness = 26
+	pursuit = 28
+	screen = 12
+	terrain_bonus = { plains = { damage = 8 } drylands = { damage = 5 } }
+}
+maa_french_gendarmes = {
+	type = heavy_cavalry
+	can_recruit = { culture = french }
+	ai_quality = 4
+	stack = 100
+	buy_cost = { gold = 120 }
+	low_maintenance_cost = { gold = 0.20 }
+	high_maintenance_cost = { gold = 0.40 }
+	damage = 44
+	toughness = 32
+	pursuit = 22
+	screen = 10
+	terrain_bonus = { plains = { damage = 8 } }
+}
+maa_german_landsknechts = {
+	type = pikemen
+	can_recruit = { culture = german }
+	ai_quality = 4
+	stack = 100
+	buy_cost = { gold = 95 }
+	low_maintenance_cost = { gold = 0.16 }
+	high_maintenance_cost = { gold = 0.32 }
+	damage = 34
+	toughness = 30
+	pursuit = 6
+	screen = 10
+	terrain_bonus = { plains = { toughness = 6 } farmlands = { toughness = 6 } }
+}
+maa_english_longbowmen = {
+	type = archers
+	can_recruit = { culture = english }
+	ai_quality = 4
+	stack = 100
+	buy_cost = { gold = 85 }
+	low_maintenance_cost = { gold = 0.14 }
+	high_maintenance_cost = { gold = 0.28 }
+	damage = 38
+	toughness = 16
+	pursuit = 8
+	screen = 20
+	terrain_bonus = { hills = { damage = 8 } forest = { damage = 8 } }
+}
+maa_castilian_tercios = {
+	type = heavy_infantry
+	can_recruit = { culture = castilian }
+	ai_quality = 4
+	stack = 100
+	buy_cost = { gold = 105 }
+	low_maintenance_cost = { gold = 0.17 }
+	high_maintenance_cost = { gold = 0.34 }
+	damage = 40
+	toughness = 34
+	pursuit = 7
+	screen = 14
+	terrain_bonus = { drylands = { toughness = 6 } hills = { toughness = 4 } }
+}
+maa_russian_streltsy = {
+	type = archers
+	can_recruit = { culture = russian }
+	ai_quality = 4
+	stack = 100
+	buy_cost = { gold = 90 }
+	low_maintenance_cost = { gold = 0.15 }
+	high_maintenance_cost = { gold = 0.30 }
+	damage = 36
+	toughness = 20
+	pursuit = 6
+	screen = 18
+	terrain_bonus = { taiga = { damage = 8 } }
+}
+maa_polish_winged_hussars = {
+	type = heavy_cavalry
+	can_recruit = { culture = polish }
+	ai_quality = 5
+	stack = 100
+	buy_cost = { gold = 130 }
+	low_maintenance_cost = { gold = 0.22 }
+	high_maintenance_cost = { gold = 0.44 }
+	damage = 48
+	toughness = 28
+	pursuit = 30
+	screen = 12
+	terrain_bonus = { plains = { damage = 10 } }
+}
+maa_italian_condottieri = {
+	type = pikemen
+	can_recruit = { culture = italian }
+	ai_quality = 4
+	stack = 100
+	buy_cost = { gold = 95 }
+	low_maintenance_cost = { gold = 0.16 }
+	high_maintenance_cost = { gold = 0.32 }
+	damage = 32
+	toughness = 30
+	pursuit = 8
+	screen = 12
+	terrain_bonus = { hills = { toughness = 6 } farmlands = { damage = 4 } }
+}
+maa_arabian_mamluks = {
+	type = heavy_cavalry
+	can_recruit = { culture = arabic }
+	ai_quality = 4
+	stack = 100
+	buy_cost = { gold = 115 }
+	low_maintenance_cost = { gold = 0.19 }
+	high_maintenance_cost = { gold = 0.38 }
+	damage = 40
+	toughness = 27
+	pursuit = 26
+	screen = 14
+	terrain_bonus = { desert = { damage = 8 } drylands = { damage = 6 } }
+}

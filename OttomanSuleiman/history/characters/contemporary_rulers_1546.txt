@@ -1,0 +1,131 @@
+# Major contemporary rulers and immediate heirs, available to the 1546 world.
+charles_v_habsburg_1546 = {
+	name = "Charles"
+	dynasty = dynasty_habsburg_1546
+	religion = catholic
+	culture = german
+	male = yes
+	birth = 1500.02.24
+	skill = { diplomacy = 13 martial = 11 stewardship = 12 intrigue = 10 learning = 11 prowess = 6 }
+	trait = diligent
+	trait = ambitious
+	dead = 1558.09.21
+}
+philip_ii_habsburg_1546 = {
+	name = "Philip"
+	dynasty = dynasty_habsburg_1546
+	father = charles_v_habsburg_1546
+	religion = catholic
+	culture = castilian
+	male = yes
+	birth = 1527.05.21
+	skill = { diplomacy = 8 martial = 8 stewardship = 14 intrigue = 12 learning = 8 prowess = 4 }
+	trait = diligent
+	dead = 1598.09.13
+}
+francis_i_valois_1546 = {
+	name = "Francis"
+	dynasty = dynasty_valois_1546
+	religion = catholic
+	culture = french
+	male = yes
+	birth = 1494.09.12
+	skill = { diplomacy = 14 martial = 11 stewardship = 10 intrigue = 10 learning = 9 prowess = 7 }
+	trait = gregarious
+	trait = ambitious
+	dead = 1547.03.31
+}
+henry_ii_valois_1546 = {
+	name = "Henry"
+	dynasty = dynasty_valois_1546
+	father = francis_i_valois_1546
+	religion = catholic
+	culture = french
+	male = yes
+	birth = 1519.03.31
+	skill = { diplomacy = 9 martial = 14 stewardship = 8 intrigue = 8 learning = 6 prowess = 10 }
+	trait = brave
+	dead = 1559.07.10
+}
+henry_viii_tudor_1546 = {
+	name = "Henry"
+	dynasty = dynasty_tudor_1546
+	religion = catholic
+	culture = english
+	male = yes
+	birth = 1491.06.28
+	skill = { diplomacy = 12 martial = 11 stewardship = 10 intrigue = 13 learning = 8 prowess = 5 }
+	trait = wrathful
+	trait = ambitious
+	dead = 1547.01.28
+}
+edward_vi_tudor_1546 = {
+	name = "Edward"
+	dynasty = dynasty_tudor_1546
+	father = henry_viii_tudor_1546
+	religion = catholic
+	culture = english
+	male = yes
+	birth = 1537.10.12
+	skill = { diplomacy = 6 martial = 3 stewardship = 7 intrigue = 5 learning = 12 prowess = 2 }
+	trait = intelligent
+	dead = 1553.07.06
+}
+ivan_iv_rurik_1546 = {
+	name = "Ivan"
+	dynasty = dynasty_rurik_1546
+	religion = orthodox
+	culture = russian
+	male = yes
+	birth = 1530.08.25
+	skill = { diplomacy = 8 martial = 13 stewardship = 11 intrigue = 16 learning = 9 prowess = 8 }
+	trait = ambitious
+	trait = wrathful
+	dead = 1584.03.28
+}
+mary_i_tudor_1546 = {
+	name = "Mary"
+	dynasty = dynasty_tudor_1546
+	father = henry_viii_tudor_1546
+	religion = catholic
+	culture = english
+	female = yes
+	birth = 1516.02.18
+	skill = { diplomacy = 9 martial = 3 stewardship = 8 intrigue = 8 learning = 10 prowess = 2 }
+	trait = zealous
+	dead = 1558.11.17
+}
+elizabeth_i_tudor_1546 = {
+	name = "Elizabeth"
+	dynasty = dynasty_tudor_1546
+	father = henry_viii_tudor_1546
+	religion = catholic
+	culture = english
+	female = yes
+	birth = 1533.09.07
+	skill = { diplomacy = 15 martial = 5 stewardship = 12 intrigue = 15 learning = 13 prowess = 3 }
+	trait = intelligent
+	dead = 1603.03.24
+}
+maria_habsburg_1546 = {
+	name = "Maria"
+	dynasty = dynasty_habsburg_1546
+	father = charles_v_habsburg_1546
+	religion = catholic
+	culture = castilian
+	female = yes
+	birth = 1528.06.21
+	trait = comely
+	dead = 1603.02.26
+}
+joanna_habsburg_1546 = {
+	name = "Joanna"
+	dynasty = dynasty_habsburg_1546
+	father = charles_v_habsburg_1546
+	religion = catholic
+	culture = castilian
+	female = yes
+	birth = 1535.06.24
+	trait = intelligent
+	dead = 1573.09.07
+}

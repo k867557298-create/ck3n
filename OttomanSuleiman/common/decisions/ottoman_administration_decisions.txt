@@ -1,0 +1,18 @@
+confirm_imperial_kanun_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny.dds"
+	desc = confirm_imperial_kanun_decision_desc
+	selection_tooltip = confirm_imperial_kanun_decision_tooltip
+	major = yes
+	is_shown = { has_title = e_ottoman_empire }
+	is_valid = {
+		gold >= 200
+		NOT = { has_character_modifier = ottoman_kanun_modifier }
+	}
+	effect = {
+		add_gold = -200
+		add_prestige = 350
+		add_character_modifier = { modifier = ottoman_kanun_modifier years = 20 }
+	}
+	ai_check_interval = 120
+	ai_potential = { always = no }
+}

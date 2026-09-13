@@ -1,0 +1,33 @@
+ottoman_suleiman_legacy_modifier = {
+	monthly_prestige = 0.25
+	general_opinion = 10
+}
+ottoman_divan_reform_modifier = {
+	monthly_prestige = 0.15
+	monthly_income_mult = 0.05
+}
+ottoman_mustafa_crisis_modifier = {
+	general_opinion = -10
+	monthly_prestige = -0.10
+}
+ottoman_kanun_modifier = {
+	monthly_prestige = 0.10
+	monthly_income_mult = 0.08
+	general_opinion = 5
+}
+ottoman_franco_alliance_modifier = {
+	monthly_prestige = 0.12
+	diplomacy = 2
+}
+ottoman_persian_campaign_modifier = {
+	monthly_prestige = 0.15
+	monthly_piety = 0.05
+}
+ottoman_amasya_peace_modifier = {
+	monthly_income_mult = 0.06
+	general_opinion = 8
+}
+ottoman_hurrem_memory_modifier = {
+	monthly_prestige = 0.08
+	learning = 1
+}

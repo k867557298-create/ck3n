@@ -1,0 +1,214 @@
+# Court and dynasty of Suleiman I. Dates follow the 1546 bookmark.
+suleiman_i_osmanli = {
+	name = "Suleiman"
+	dynasty = dynasty_osmanli
+	religion = ashari
+	culture = turkish
+	male = yes
+	government = feudal_government
+	birth = 1494.11.06
+	skill = { diplomacy = 16 martial = 15 stewardship = 13 intrigue = 11 learning = 12 prowess = 8 }
+	trait = just
+	trait = ambitious
+	trait = scholar
+	trait = strategist
+	trait = august
+	trait = lifestyle_martial_strategy_focus
+	spouse = hurrem_sultan_osmanli
+	dead = 1566.09.06
+}
+hurrem_sultan_osmanli = {
+	name = "Hurrem"
+	dynasty = dynasty_osmanli
+	religion = ashari
+	culture = turkish
+	female = yes
+	birth = 1502.01.01
+	skill = { diplomacy = 12 martial = 4 stewardship = 10 intrigue = 18 learning = 9 prowess = 2 }
+	trait = ambitious
+	trait = intelligent
+	trait = seducer
+	dead = 1558.04.15
+}
+prince_mustafa_osmanli = {
+	name = "Şehzade Mustafa"
+	dynasty = dynasty_osmanli
+	father = suleiman_i_osmanli
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1515.01.01
+	skill = { diplomacy = 12 martial = 17 stewardship = 8 intrigue = 8 learning = 7 prowess = 12 }
+	trait = brave
+	trait = ambitious
+	trait = strategist
+	dead = 1553.10.06
+}
+prince_mehmed_osmanli = {
+	name = "Şehzade Mehmed"
+	dynasty = dynasty_osmanli
+	father = suleiman_i_osmanli
+	mother = hurrem_sultan_osmanli
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1521.01.01
+	trait = comely
+	dead = 1543.11.07
+}
+mihrimah_sultan_osmanli = {
+	name = "Mihrimah Sultan"
+	dynasty = dynasty_osmanli
+	father = suleiman_i_osmanli
+	mother = hurrem_sultan_osmanli
+	religion = ashari
+	culture = turkish
+	female = yes
+	birth = 1522.03.21
+	skill = { diplomacy = 14 martial = 3 stewardship = 11 intrigue = 14 learning = 9 prowess = 2 }
+	trait = intelligent
+	spouse = rustem_pasha_osmanli
+	dead = 1578.01.25
+}
+selim_ii_osmanli = {
+	name = "Şehzade Selim"
+	dynasty = dynasty_osmanli
+	father = suleiman_i_osmanli
+	mother = hurrem_sultan_osmanli
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1524.05.28
+	skill = { diplomacy = 9 martial = 6 stewardship = 10 intrigue = 9 learning = 7 prowess = 4 }
+	trait = gregarious
+	trait = eager_reveler
+	dead = 1574.12.15
+}
+bayezid_osmanli = {
+	name = "Şehzade Bayezid"
+	dynasty = dynasty_osmanli
+	father = suleiman_i_osmanli
+	mother = hurrem_sultan_osmanli
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1525.01.01
+	skill = { diplomacy = 10 martial = 12 stewardship = 8 intrigue = 11 learning = 8 prowess = 8 }
+	trait = ambitious
+	trait = brave
+	dead = 1561.09.25
+}
+cihangir_osmanli = {
+	name = "Şehzade Cihangir"
+	dynasty = dynasty_osmanli
+	father = suleiman_i_osmanli
+	mother = hurrem_sultan_osmanli
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1531.12.09
+	skill = { diplomacy = 9 martial = 2 stewardship = 7 intrigue = 8 learning = 12 prowess = 1 }
+	trait = scholar
+	dead = 1553.11.27
+}
+rustem_pasha_osmanli = {
+	name = "Rustem"
+	dynasty = dynasty_rustem_pasha_1546
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1500.01.01
+	skill = { diplomacy = 8 martial = 6 stewardship = 17 intrigue = 15 learning = 10 prowess = 4 }
+	trait = administrator
+	trait = diligent
+	spouse = mihrimah_sultan_osmanli
+	dead = 1561.07.10
+}
+barbarossa_osmanli = {
+	name = "Hayreddin"
+	dynasty = dynasty_osmanli
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1478.01.01
+	skill = { diplomacy = 7 martial = 18 stewardship = 7 intrigue = 11 learning = 5 prowess = 14 }
+	trait = aggressive_attacker
+	trait = brave
+	dead = 1546.07.04
+}
+
+# Provincial administration: offices are appointed by the Sultan, represented as named eyalet and sanjak holders.
+sokollu_mehmed_pasha_osmanli = {
+	name = "Sokollu Mehmed Pasha"
+	dynasty = dynasty_rustem_pasha_1546
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1506.01.01
+	skill = { diplomacy = 13 martial = 8 stewardship = 16 intrigue = 14 learning = 10 prowess = 4 }
+	trait = administrator
+	trait = diligent
+	dead = 1579.10.11
+}
+lala_mustafa_pasha_osmanli = {
+	name = "Lala Mustafa Pasha"
+	dynasty = dynasty_rustem_pasha_1546
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1500.01.01
+	skill = { diplomacy = 8 martial = 15 stewardship = 10 intrigue = 9 learning = 8 prowess = 9 }
+	trait = strategist
+	trait = diligent
+	dead = 1580.08.07
+}
+hadim_suleiman_pasha_osmanli = {
+	name = "Hadim Suleiman Pasha"
+	dynasty = dynasty_rustem_pasha_1546
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1474.01.01
+	skill = { diplomacy = 10 martial = 9 stewardship = 15 intrigue = 12 learning = 9 prowess = 3 }
+	trait = administrator
+	dead = 1547.02.01
+}
+piyale_pasha_osmanli = {
+	name = "Piyale Pasha, Sanjak-bey"
+	dynasty = dynasty_rustem_pasha_1546
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1515.01.01
+	skill = { diplomacy = 8 martial = 15 stewardship = 9 intrigue = 10 learning = 6 prowess = 10 }
+	trait = aggressive_attacker
+	dead = 1578.01.21
+}
+
+# Descendants of the Sultan through Princess Mihrimah use the maternal Sultanzade style.
+sultanzade_osman_pasha = {
+	name = "Sultanzade Osman Pasha"
+	dynasty = dynasty_rustem_pasha_1546
+	father = rustem_pasha_osmanli
+	mother = mihrimah_sultan_osmanli
+	religion = ashari
+	culture = turkish
+	male = yes
+	birth = 1546.01.01
+	skill = { diplomacy = 8 martial = 10 stewardship = 9 intrigue = 7 learning = 6 prowess = 6 }
+	trait = brave
+	dead = 1576.01.01
+}
+ayse_humasah_sultan = {
+	name = "Ayşe Hümaşah Sultan"
+	dynasty = dynasty_osmanli
+	father = rustem_pasha_osmanli
+	mother = mihrimah_sultan_osmanli
+	religion = ashari
+	culture = turkish
+	female = yes
+	birth = 1543.01.01
+	skill = { diplomacy = 10 martial = 2 stewardship = 9 intrigue = 11 learning = 8 prowess = 2 }
+	trait = intelligent
+	dead = 1594.01.01
+}

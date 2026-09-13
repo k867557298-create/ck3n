@@ -1,0 +1,7 @@
+# These events only pass their triggers for Suleiman and never affect unrelated rulers.
+on_game_start = {
+	events = { ottoman_suleiman.0001 }
+}
+on_monthly_pulse = {
+	events = { ottoman_suleiman.0100 ottoman_suleiman.0200 ottoman_suleiman.0300 ottoman_suleiman.0400 ottoman_suleiman.0500 ottoman_suleiman.0600 }
+}

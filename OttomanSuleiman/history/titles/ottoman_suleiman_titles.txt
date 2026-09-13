@@ -1,0 +1,35 @@
+# Political map and feudal Sultanate administration at the dedicated 1546 bookmark.
+e_ottoman_empire = {
+	1546.1.1 = {
+		holder = suleiman_i_osmanli
+		government = feudal_government
+		succession_laws = { male_preference_primogeniture_succession_law }
+	}
+}
+c_byzantion = { 1546.1.1 = { holder = suleiman_i_osmanli } }
+
+# The Sultan appoints provincial governors (Beylerbeys) and sub-provincial Sanjak-beys.
+d_rumelia_eyalet = { 1546.1.1 = { holder = sokollu_mehmed_pasha_osmanli liege = e_ottoman_empire } }
+d_anatolia_eyalet = { 1546.1.1 = { holder = lala_mustafa_pasha_osmanli liege = e_ottoman_empire } }
+d_egypt_eyalet = { 1546.1.1 = { holder = hadim_suleiman_pasha_osmanli liege = e_ottoman_empire } }
+d_syria_eyalet = { 1546.1.1 = { holder = rustem_pasha_osmanli liege = e_ottoman_empire } }
+d_gallipoli_sanjak = { 1546.1.1 = { holder = piyale_pasha_osmanli liege = e_ottoman_empire } }
+d_karaman_eyalet = { 1546.1.1 = { liege = e_ottoman_empire } }
+d_rum_eyalet = { 1546.1.1 = { liege = e_ottoman_empire } }
+d_dulkadir_eyalet = { 1546.1.1 = { liege = e_ottoman_empire } }
+d_diyarbakir_eyalet = { 1546.1.1 = { liege = e_ottoman_empire } }
+d_damascus_eyalet = { 1546.1.1 = { liege = e_ottoman_empire } }
+d_baghdad_eyalet = { 1546.1.1 = { liege = e_ottoman_empire } }
+d_budin_eyalet = { 1546.1.1 = { liege = e_ottoman_empire } }
+d_archipelago_eyalet = { 1546.1.1 = { liege = e_ottoman_empire } }
+c_adrianopolis = { 1546.1.1 = { holder = sokollu_mehmed_pasha_osmanli liege = d_rumelia_eyalet } }
+c_ankara = { 1546.1.1 = { holder = lala_mustafa_pasha_osmanli liege = d_anatolia_eyalet } }
+c_alexandria = { 1546.1.1 = { holder = hadim_suleiman_pasha_osmanli liege = d_egypt_eyalet } }
+c_aleppo = { 1546.1.1 = { holder = rustem_pasha_osmanli liege = d_syria_eyalet } }
+# Piyale Pasha is a Sanjak-bey in the direct service of the Sultan.
+c_gallipoli = { 1546.1.1 = { holder = piyale_pasha_osmanli liege = d_gallipoli_sanjak } }
+
+e_hre = { 1546.1.1 = { holder = charles_v_habsburg_1546 } }
+k_france = { 1546.1.1 = { holder = francis_i_valois_1546 } }
+k_england = { 1546.1.1 = { holder = henry_viii_tudor_1546 } }
+k_rus = { 1546.1.1 = { holder = ivan_iv_rurik_1546 } }
